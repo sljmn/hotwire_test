@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+announcement = Announcement.create(content: "First Announcement")
+teacher = Teacher.create(name: "Teacher")
+student = Student.create(name: "Student")
+
+byebug
+
+puts 'seeded'
